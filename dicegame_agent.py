@@ -3,7 +3,7 @@ import numpy as np
 from abc import ABC, abstractmethod
 
 # setting a seed for the random number generator gives repeatable results, making testing easier!
-np.random.seed(111)
+#np.random.seed(111)
 
 game = DiceGame()
 game.reset()
