@@ -9,7 +9,7 @@ game = DiceGame()
 game.reset()
 
 
-# tests the game using alternate setups (n times) (imported from assignment sheet)
+# tests the game using alternate setups (n times) 
 def extended_tests():
     import time
     total_score = 0
@@ -38,7 +38,7 @@ def extended_tests():
     print(f"Average time: {total_time/n:.5f} seconds")
 
 
-# run tests (n times) using the standard game rules (imported from assignment sheet)
+# run tests (n times) using the standard game rules 
 def tests():
     import time
 
@@ -70,7 +70,7 @@ def tests():
     print(f"Total time: {total_time:.4f} seconds")
 
 
-# agent to run this game (imported from assignment sheet)
+# agent to run this game 
 def play_game_with_agent(agent, game, verbose=False):
     state = game.reset()
 
